@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>8f6368ae-3a8d-4389-99f5-be3f9846b504</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MnM.GWS.StandardVersion</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)NativeFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ElementCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DrawInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Renderer.cs" />
+  </ItemGroup>
+</Project>
