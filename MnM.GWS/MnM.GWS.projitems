@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>919b1bd8-b3e8-477b-93fe-fc314cbb8268</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MnM.GWS</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\EventArgsT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\InvalidateEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PaintEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\SizeEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\FontHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\PathHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsBuffer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsBufferCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsFloodFill.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsGraphics.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsElementCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsTexure.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsUpdateManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsRenderWindow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsUploadable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Renderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Window.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\Occupier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enums\Enums.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\EnumerableHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\EnumHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\FactoryHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\ImageHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\InputHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\MathHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\DrawParams.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\FloodFill.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\UpdateManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\Buffer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\RectF.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Seed Entities\ShapeInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\Font.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\Font2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\GlyphRenderer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\GlyphSlot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsSound.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Gws Classes\GwsWindow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\Brush.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\Graphics.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\PopupCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\StbImageProcessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\SolidPen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Collections.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\DataBindings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\EventArguments.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Events.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Factories.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Font.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Image-Canvas-Pen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Media.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\ControlCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\PenContexts-Styles.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Buffers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Primitives.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Serialization.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Shapes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces\Object.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\Colours.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\FillStyles.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\Geometry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Main\Implementation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\Matrix3x2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\Vector3.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\Size.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\SizeF.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\Point.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\PointF.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Seed Entities\DrawSetter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\Timer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\Angle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Seed Entities\TrapeziumData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\ArcCut.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\CancelEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\Colour.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Seed Entities\DrawStyle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Seed Entities\EllipseData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\EnumTag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\EventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\EventInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Seed Entities\FillStyle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Seed Entities\FontInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Seed Entities\GlyphsInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Seed Entities\ImageStyle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\KeyPressEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\LoopEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\Pair.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\Rect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Seed Entities\RGBA.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Seed Entities\SimplePopupItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\SimplePopupItemEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\Slant.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Primitives\Value.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\APoint.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\Box.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\BoxF.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\Bezier.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\BezierCurve.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\Curve.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\Glyph.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\Line.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\Polygon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\Rhombus.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\Ring.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\RoundedBox.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\Scanner.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\SLine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\Text.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\Traingle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\Trapezium.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shapes\XLine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sealed Entities\STBImage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)GwsInMaking.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)UbuntuMono-Regular.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)UFL.txt" />
+  </ItemGroup>
+</Project>
