@@ -6,7 +6,7 @@ GWS is a C# 2D graphics library created as part of the infrastructure for M&M In
 </kbd><br /><br />
 <kbd>
   <img src="https://media.giphy.com/media/ZYR0Ij7TXseHO41YT7/giphy.gif" alt="Font Zoom gif">
-</kbd>
+</kbd><br />
 
 This live screen capture was created by changing image properties in the GWS demo by hand.
 
