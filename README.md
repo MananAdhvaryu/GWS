@@ -3,7 +3,7 @@ GWS is a C# 2D graphics library created as part of the infrastructure for M&M In
 
 <kbd>
   <img src="https://media.giphy.com/media/QvwCkz2JDoQqt0WfGp/giphy.gif" alt="Polygon rotation gif">
-</kbd><br />
+</kbd><br /><br />
 <kbd>
   <img src="https://media.giphy.com/media/ZYR0Ij7TXseHO41YT7/giphy.gif" alt="Font Zoom gif">
 </kbd>
