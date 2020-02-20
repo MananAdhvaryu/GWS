@@ -1,5 +1,6 @@
 # GWS (Graphics and Windowing System)
-GWS is a C# 2D graphics library created as part of the infrastructure for M&M Info-tech Ltd's Control Technologies. As such it is actively developed and documented by M&M Info-tech Ltd.
+GWS is a cross-platform C# 2D graphics library created as part of the infrastructure for M&M Info-tech Ltd's Control Technologies. As such it is actively developed and documented by M&M Info-tech Ltd.
+It's built with the Net standard 1.6 library which can work with Windows, Android, IOS, Mac, Linux, firebird etc.
 
 <kbd>
   <img src="https://media.giphy.com/media/QvwCkz2JDoQqt0WfGp/giphy.gif" alt="Polygon rotation gif">
@@ -13,6 +14,7 @@ This live screen capture was created by changing image properties in the GWS dem
 <h1>Feature List:</h1>
 
 <ul>
+<li>Cross-platform
 <li>C# code.
 <li>Test environment.
 <li>Extensively Modular Design
